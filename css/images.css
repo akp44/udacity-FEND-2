@@ -1,0 +1,41 @@
+.header-bar{
+    background-image: url(../img/bird.jpg);
+}
+
+#Box-1{
+    background-image: url(../img/bus.jpeg);
+    
+}
+
+#Box-2{
+    background-image: url(../img/blur.jpg);
+}
+
+#Box-3{
+    background-image: url(../img/match.jpeg);
+}
+#Box-4{
+    background-image: url(../img/apple.jpeg);
+}
+#Box-5{
+    background-image: url(../img/red.jpeg);
+}
+
+h2{
+    color: white;
+    text-align: left !important;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li a {
+        text-decoration: none; 
+        color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 5px;
+        transition: ease-in-out .3s;
+    }
+} 
